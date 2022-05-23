@@ -2,4 +2,35 @@
 
 body {
     font-family: nunito, 'sans-serif';
+    font-size: 120%;
+    background-image: url("../images/stadium3.png");
+}
+
+.content {
+    background-color: rgba(222, 221, 221, 0.7);
+    box-sizing: border-box;
+    width: 75%;
+    height: 60vh;
+    max-width: 830px;
+    max-height: 450px;
+    margin-top: 11%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+.main-heading {
+   padding-top: 5%;
+    text-align: center;
+}
+
+
+.button {
+    text-align: center;
+    padding-top: 10%;
+}
+
+#button1, #button2 {
+    padding: 5%;
+    background-image: url("../images/football.png");
 }
