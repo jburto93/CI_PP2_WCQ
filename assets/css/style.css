@@ -10,7 +10,7 @@ body {
     background-color: rgba(222, 221, 221, 0.7);
     box-sizing: border-box;
     width: 75%;
-    height: 60vh;
+    height: 65vh;
     max-width: 830px;
     max-height: 450px;
     margin-top: 11%;
@@ -31,6 +31,18 @@ body {
 }
 
 #button1, #button2 {
-    padding: 5%;
-    background-image: url("../images/football.png");
+    background-size: contain;
+    padding: 8%;
+    background-image: url(../images/football500.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#button1:hover, #button2:hover {
+    padding: 10%;
 }
