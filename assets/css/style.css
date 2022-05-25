@@ -64,3 +64,32 @@ a {
     margin: 4%;
 }
 }
+
+/* CSS for game.html */
+
+.choice-container {
+    margin-left: 10%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    background: grey;
+    width: 80%;
+    height: 3rem;
+}
+
+.choice-container:hover {
+    padding: 0.2%;
+}
+
+.choice-prefix {
+    color: #FFFFFF;
+    padding: 1rem;
+}
+/*
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+*/
+
