@@ -46,7 +46,7 @@ a {
 }
 
 #button1:hover, #button2:hover {
-    padding: 10%;
+    padding: 9.5%;
 }
 
 @media screen and (max-width: 500px) {
