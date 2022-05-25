@@ -12,12 +12,12 @@ body {
 .content {
     background-color: rgba(222, 221, 221, 0.7);
     box-sizing: border-box;
-    width: 75%;
+    width: 80%;
     height: 65vh;
     margin-top: 11%;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 5%;
+    border-radius: 1rem;
 }
 
 .main-heading {
@@ -93,3 +93,49 @@ a {
 }
 */
 
+.correct-answer {
+    background: greenyellow;
+}
+
+.incorrect-answer {
+    background: red;
+}
+
+/* hud */
+
+#hud {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 150%;
+    margin-left: 20%;
+}
+
+.hud-main-text {
+    text-align: center;
+    margin-left: 40%;
+    margin-top: -10%;
+}
+
+.hud-item {
+    margin-right: 5%;
+    margin-bottom: -2%;
+}
+
+#progress-bar {
+    width: 200px;
+    height: 2rem;
+    border: 0.1rem solid greenyellow;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-left: 10%;
+}
+
+#progress-bar-full {
+    height: 100%;
+    background: greenyellow;
+    width: 0%;
+}
