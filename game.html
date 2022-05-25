@@ -5,10 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Cup Quiz Game</title>
-    <link href="../CI_PP2_WCQ/assets/css/style.css">
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="content">
+        <div id="game">
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progress-text" class="hud-prefix">
+                        Question1
+                    </p>
+                    <div id="progress-bar">
+                        <div id="progress-bar-full">
+                        </div>
+                    </div>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Score1
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <div id="question">what is answer</div>
+            <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text" data-number="1">choice</p>
+            </div>
+            <div id="question">what is answer</div>
+            <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text" data-number="2">choice2</p>
+            </div>
+            <div id="question">what is answer</div>
+            <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text" data-number="3">choice3</p>
+            </div>
+            <div id="question">what is answer</div>
+            <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text" data-number="4">choice4</p>
+            </div>
+        </div>
+    </div>
 
     <script src="assets/js/script.js"></script>
 </body>
