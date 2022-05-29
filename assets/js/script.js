@@ -52,3 +52,14 @@ let questions = [
         answer: 2,
     }
 ]
+
+const score_points = 10;
+const max-questions = 5;
+
+startGame = () => {
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQuestion ();
+}
+
