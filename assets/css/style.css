@@ -75,7 +75,7 @@ a {
     border-radius: 0.5rem;
     background: grey;
     width: 80%;
-    height: 3rem;
+    height: 2.5rem;
 }
 
 .choice-container:hover {
@@ -111,7 +111,8 @@ a {
 .hud-prefix {
     text-align: center;
     font-size: 150%;
-    margin-left: 20%;
+    margin-left: 15%;
+    width: 100%;
 }
 
 .hud-main-text {
@@ -128,10 +129,10 @@ a {
 #progress-bar {
     width: 200px;
     height: 2rem;
-    border: 0.1rem solid greenyellow;
+    border: 0.1rem solid grey;
     border-radius: 50px;
     overflow: hidden;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 #progress-bar-full {
@@ -143,7 +144,7 @@ a {
 #question {
     font-size: 100%;
     margin-left: 10%;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 /* css for game.html screens under 500px */

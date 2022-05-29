@@ -1,8 +1,8 @@
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
-const progress-text = document.querySelector('#progress-text');
-const score-text = document.querySelector('#score');
-const progress-bar-full = document.querySelector('#progress-bar-full');
+const progressText = document.querySelector('#progress-text');
+const scoreText = document.querySelector('#score');
+const progressBarFull = document.querySelector('#progress-bar-full');
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -71,8 +71,8 @@ getNewQuestion = () => {
     }
 
     questionCounter++
-    progress-text.innerText = `Question ${questionCounter} of ${max_questions}`
-    progress-bar-full.style.width = `${(questionCounter/max_questions) * 100}%`
+    progressText.innerText = `Question ${questionCounter} of ${max_questions}`
+    progressBarFull.style.width = `${(questionCounter/max_questions) * 100}%`
 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions [questionIndex]
@@ -110,3 +110,10 @@ choices.forEach(choice => {
         }, 1000)
     })
 })
+
+incrementScore = num => {
+    score +=num
+    scoreText.innerText = score
+}
+
+startGame()
