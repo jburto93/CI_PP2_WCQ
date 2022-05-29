@@ -13,7 +13,7 @@ body {
     background-color: rgba(222, 221, 221, 0.7);
     box-sizing: border-box;
     width: 80%;
-    height: 70vh;
+    height: 75vh;
     margin-top: 11%;
     margin-left: auto;
     margin-right: auto;
@@ -121,7 +121,7 @@ a {
 }
 
 .hud-item {
-    margin-right: 5%;
+    margin-right: 8%;
     margin-bottom: -2%;
 }
 
@@ -140,6 +140,12 @@ a {
     width: 0%;
 }
 
+#question {
+    font-size: 100%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
 /* css for game.html screens under 500px */
 
 @media screen and (max-width: 500px) {
@@ -150,12 +156,16 @@ a {
     }
 
     #progress-bar {
-        width: 120px;
-        margin-left: 5%;
+        width: 100px;
+        margin-left: 15%;
     }
 
     .hud-main-text {
-        margin-top: -20%;
+        font-size: 150%;
+    }
+
+    .hud-item {
+        margin-bottom: 10%;
     }
 }
 
