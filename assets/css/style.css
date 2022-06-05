@@ -171,3 +171,36 @@ a {
 }
 
 
+/* end game page */
+
+    .container {
+        background-color: rgba(222, 221, 221, 0.7);
+        box-sizing: border-box;
+        width: 80%;
+        height: 75vh;
+        margin-top: 11%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 1rem;
+    }
+
+    #end-text {
+        padding-left: 12rem;
+        padding-top: 4rem;
+    }
+
+    input {
+        padding: 0.5rem;
+        width: 50%;
+        text-align: center;
+        margin-left: 12rem;
+        margin-top: 4rem;
+    }
+
+    .btn2 {
+        margin-left: 14rem;
+        padding-top: 2rem;
+        margin-bottom: 50%;
+        display: inline-flex;
+    }
+

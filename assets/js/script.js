@@ -96,7 +96,7 @@ choices.forEach(choice => {
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
 
-        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
+        let classToApply = selectedAnswer == currentQuestion.answer ? '.correct-answer' : '.incorrect-answer'
 
         if(classToApply === 'correct') {
             incrementScore(score_points)
