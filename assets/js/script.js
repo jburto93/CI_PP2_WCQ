@@ -96,7 +96,7 @@ choices.forEach(choice => {
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
 
-        let classToApply = selectedAnswer == currentQuestion.answer ? '.correct-answer' : '.incorrect-answer'
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct-answer' : 'incorrect-answer'
 
         if(classToApply === 'correct') {
             incrementScore(score_points)
@@ -117,3 +117,21 @@ incrementScore = num => {
 }
 
 startGame()
+
+/* end game js */
+
+const username = document.querySelector('#username');
+const saveScoreBtn = document.querySelector('save-score-btn');
+const finalScore = document.querySelector('#final-score');
+const mostRecentScore = document.querySelector('#most-recent-score');
+
+const highScores = JSON.parse(localStorage.getItem('highScores')) || []
+
+const MAX_HIGH_SCORES = 5
+
+finalScore.innerText = mostRecentScore
+
+username.addEventListener('keyup', () => {
+    saveScoreBtn.disabled = !username.value
+})
+
