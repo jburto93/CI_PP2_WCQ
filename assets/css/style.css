@@ -184,23 +184,28 @@ a {
         border-radius: 1rem;
     }
 
+    h1#\#final-score {
+        text-align: center;
+        padding-top: 2%;
+    }
+
     #end-text {
-        padding-left: 12rem;
-        padding-top: 4rem;
+        padding-top: 4%;
+        font-size: 150%;
+        text-align: center;
     }
 
     input {
-        padding: 0.5rem;
+        padding: 0.5%;
         width: 50%;
         text-align: center;
-        margin-left: 12rem;
-        margin-top: 4rem;
+        margin-left: 23%;
+        margin-top: 2%;
     }
 
     .btn2 {
-        margin-left: 14rem;
-        padding-top: 2rem;
-        margin-bottom: 50%;
-        display: inline-flex;
+        padding-top: 5%;
+        display: block;
+        text-align: center;
     }
 
